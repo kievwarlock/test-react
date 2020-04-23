@@ -1,0 +1,20 @@
+.input-text {
+  width: 100%;
+  display: inline-block;
+
+  &__not-valid {
+    border: 1px solid red;
+  }
+
+  &__input {
+    margin: 0;
+    padding: 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    color: #909fa4;
+    font-size: 16px;
+    width:100%;
+  }
+}
